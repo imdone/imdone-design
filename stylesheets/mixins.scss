@@ -5,20 +5,24 @@
 -------------------------------------------------------------------*/
 
 @mixin center{ margin:0 auto; }
-
 @mixin full { width:100%; float:left; }
-
 @mixin transition{
     -webkit-transition: all 0.2s ease;
        -moz-transition: all 0.2s ease;
         -ms-transition: all 0.2s ease;
          -o-transition: all 0.2s ease;
 }
-
 @mixin rounded_corners{
     -webkit-border-radius: 3px;
        -moz-border-radius: 3px;
             border-radius: 3px;
 }
+
+/* Colors */
+$blue: #6f8fd4;
+$green: #3fad46;
+$gold: #f3b625;
+$dark-grey: #464646;
+$light-grey: #9a9a9a;
 
 /* End Mixins */

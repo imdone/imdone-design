@@ -1,15 +1,10 @@
-<?php include('header.php') ?>
-<?php include('navigation.php') ?>  
+<?php include('inc/header.php') ?>
+<?php include('inc/navigation.php') ?>
 
-       
-<!-- Page Wrap -->       
-<div class="wrap">
-    
-    <div class="main_content">
-        <p>hello</p>
-    </div><!-- End Main Content -->
-    
-</div><!-- End Page Wrap -->
+<!-- BEGIN: Banner -->
+<div class="banner-large">
+    <p><strong>imdone</strong> is a task-board that lives in your <strong>code_</strong></p>
+</div>
+<!-- END: Banner -->
 
-<?php include('footer.php') ?> 
-
+<?php include('inc/footer.php') ?>

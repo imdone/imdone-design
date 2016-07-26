@@ -1,27 +1,33 @@
+/*
+  imdone.io Styles
+  Jake Ruesch 2016
+*/
 /*------------------------------------------------------------------
-
-STYLESHEET CONTENTS
-
-    -- GLOBAL STYLES
-    -- MISC CLASSES
-    -- ACTIVE PAGE
-    -- CONTAINERS
-    -- NAVIGATION
-    -- ELEMENTS
-    -- FOOTER
-    
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-
     Global Styles
-
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 
     Mixins
 
 -------------------------------------------------------------------*/
+/* Colors */
 /* End Mixins */
+/*------------------------------------------------------------------
+
+    Responsive Styles
+    
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+
+    Mixins
+
+-------------------------------------------------------------------*/
+/* Colors */
+/* End Mixins */
+/*-----------------  Desktops  -----------------*/
+/* End Desktops */
+/*-----------------  Smartphones  -----------------*/
+/* End Smartphones */
 * {
   margin: 0;
   padding: 0;
@@ -32,14 +38,60 @@ STYLESHEET CONTENTS
 html {
   overflow: scroll; }
 
+body {
+  font-family: 'Roboto', sans-serif !important; }
+
+/* !important overrides Bootstrap */
 ul {
   list-style: none; }
 
-/* End Global Styles */
+.text-blue {
+  color: #6f8fd4; }
+
+.text-green {
+  color: #3fad46; }
+
+.text-gold {
+  color: #f3b625; }
+
+.text-dark-grey {
+  color: #464646; }
+
+.text-light-grey {
+  color: #9a9a9a; }
+
+.bg-blue {
+  color: #6f8fd4; }
+
+.bg-green {
+  color: #3fad46; }
+
+.bg-gold {
+  color: #f3b625; }
+
+.bg-dark-grey {
+  color: #464646; }
+
+.bg-light-grey {
+  color: #9a9a9a; }
+
+/* END: Global Styles */
 /*------------------------------------------------------------------
+    Bootstrap Overrides
+-------------------------------------------------------------------*/
+.navbar {
+  margin-bottom: 0 !important; }
 
+.navbar-collapse {
+  background: #fff !important;
+  font-family: 'Roboto', sans-serif !important;
+  text-transform: uppercase;
+  color: #464646;
+  font-size: 16px; }
+
+/* END: Bootstrap Overrides */
+/*------------------------------------------------------------------
     Misc Classes
-
 -------------------------------------------------------------------*/
 .clear {
   clear: both; }
@@ -70,65 +122,36 @@ ul {
 
 /* End Misc Classes */
 /*------------------------------------------------------------------
-
-    Active Page
-
--------------------------------------------------------------------*/
-/*
-  body#ID_NAME_HERE .Navigation_Name li.List_Item_Class_Here{ Style for active Nav button }
-*/
-/* End Active Page */
-/*------------------------------------------------------------------
-
-    Containers
-
--------------------------------------------------------------------*/
-.one_fourth {
-  width: 25%; }
-
-.one_third {
-  width: 33.3%; }
-
-.half {
-  width: 50%; }
-
-.two_thirds {
-  width: 66.66%; }
-
-.full {
-  width: 100%;
-  float: left; }
-
-.content {
-  width: 100%;
-  float: left;
-  padding: 20px; }
-
-.center {
-  margin: 0 auto; }
-
-.wrap {
-  width: 980px;
-  margin: 0 auto; }
-
-/* End Containers */
-/*------------------------------------------------------------------
-
     Navigation
-
 -------------------------------------------------------------------*/
 /* End Navigation */
 /*------------------------------------------------------------------
-
-    Elements
-
--------------------------------------------------------------------*/
-/* End Elements */
-/*------------------------------------------------------------------
-
     Footer
-
 -------------------------------------------------------------------*/
+.footer {
+  margin-top: 10px;
+  padding: 10px 0;
+  border-top: 1px solid #ddd; }
+  .footer p {
+    text-align: center;
+    color: #9a9a9a;
+    font-size: 13px; }
+
 /* End Footer */
+/*------------------------------------------------------------------
+    Elements
+-------------------------------------------------------------------*/
+.banner-large {
+  width: 100%;
+  padding: 80px 0;
+  background: url(../images/banner-large.png) 50% 0%; }
+  .banner-large p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center; }
+
+/* END: Elements */
 
 /*# sourceMappingURL=style.css.map */

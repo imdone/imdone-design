@@ -1,26 +1,16 @@
 
-/*------------------------------------------------------------------
-
-STYLESHEET CONTENTS
-
-    -- GLOBAL STYLES
-    -- MISC CLASSES
-    -- ACTIVE PAGE
-    -- CONTAINERS
-    -- NAVIGATION
-    -- ELEMENTS
-    -- FOOTER
-    
--------------------------------------------------------------------*/
+/*
+  imdone.io Styles
+  Jake Ruesch 2016
+*/
 
 
 /*------------------------------------------------------------------
-
     Global Styles
-
 -------------------------------------------------------------------*/
 
 @import 'mixins';
+@import 'responsive_styles';
 
 * {
     margin:0; padding:0;
@@ -30,11 +20,12 @@ STYLESHEET CONTENTS
             box-sizing: border-box;
     }
 
-html{ overflow:scroll;}
+html{ overflow:scroll; }
 
-body{  }
+body{ font-family: 'Roboto', sans-serif !important; }
+/* !important overrides Bootstrap */
 
-a{    
+a{
      &:hover{
     }
 
@@ -47,138 +38,104 @@ ul{ list-style:none; }
 
 hr{  }
 
-h1{  }
-h2{  }
-h3{  }
-h4{  }
-h5{  }
+h1,h2,h3,h4,h5{  }
 
 ::selection{  }
 
-/* End Global Styles */
+.text-blue{       color: $blue; }
+.text-green{      color: $green; }
+.text-gold{       color: $gold; }
+.text-dark-grey{  color: $dark-grey; }
+.text-light-grey{ color: $light-grey; }
+
+.bg-blue{       color: $blue; }
+.bg-green{      color: $green; }
+.bg-gold{       color: $gold; }
+.bg-dark-grey{  color: $dark-grey; }
+.bg-light-grey{ color: $light-grey; }
+
+/* END: Global Styles */
+
+/*------------------------------------------------------------------
+    Bootstrap Overrides
+-------------------------------------------------------------------*/
+
+.navbar{ margin-bottom: 0 !important; }
+.navbar-collapse{
+  background: #fff !important;
+  font-family: 'Roboto', sans-serif !important;
+  text-transform: uppercase;
+  color: $dark-grey;
+  font-size: 16px;
+}
+
+/* END: Bootstrap Overrides */
 
 
 /*------------------------------------------------------------------
-
     Misc Classes
-
 -------------------------------------------------------------------*/
 
 .clear{ clear: both; }
 
-.left{ float:left; }
+.left{  float:left; }
 .right{ float:right; }
 
-.bold{ font-weight:bold;}
-.italic{ font-style: italic; }
+.bold{      font-weight:bold;}
+.italic{    font-style: italic; }
 .underline{ text-decoration:underline; }
 
 .center_text{ text-align:center; }
-.all_caps{ text-transform:uppercase; }
-.lower_case{ text-transform:lowercase; }
+.all_caps{    text-transform:uppercase; }
+.lower_case{  text-transform:lowercase; }
 
 /* End Misc Classes */
 
 
 
 /*------------------------------------------------------------------
-
-    Active Page
-
--------------------------------------------------------------------*/
-
-    /*
-      body#ID_NAME_HERE .Navigation_Name li.List_Item_Class_Here{ Style for active Nav button }
-    */
-
-/* End Active Page */
-
-
-
-/*------------------------------------------------------------------
-
-    Containers
-
--------------------------------------------------------------------*/
-
-.one_fourth{ width:25%; }
-.one_third{ width:33.3%; }
-.half{ width:50%;}
-.two_thirds{ width:66.66%; }
-.full{ @include full; }
-
-.container{  }
-.content{ @include full; padding:20px; }
-.center{ @include center; }
-
-.wrap{ width:980px; @include center; }
-
-/* End Containers */
-
-
-
-/*------------------------------------------------------------------
-
     Navigation
-
 -------------------------------------------------------------------*/
-
-.navigation_container{
-
-    .navigation{
-
-        .nav{
-
-            a{
-
-               &:hover{
-
-               }
-                
-                li{
-
-                }
-            }
-        }
-    }
-}
 
 
 /* End Navigation */
 
 
-
 /*------------------------------------------------------------------
-
-    Elements
-
--------------------------------------------------------------------*/
-  
-
-
-/* End Elements */
-
-
-
-/*------------------------------------------------------------------
-
     Footer
-
 -------------------------------------------------------------------*/
-.footer{
 
+.footer{
+  margin-top:10px;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+
+  p{
+    text-align: center;
+    color: $light-grey;
+    font-size: 13px;
+  }
 }
 
 /* End Footer */
 
 
+/*------------------------------------------------------------------
+    Elements
+-------------------------------------------------------------------*/
 
+.banner-large{
+  width:100%;
+  padding: 80px 0;
+  background: url(../images/banner-large.png) 50% 0%;
 
+  p{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+  }
+}
 
-
-
-
-
-
-
-
+/* END: Elements */
