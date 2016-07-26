@@ -1,0 +1,23 @@
+/*------------------------------------------------------------------
+
+    Responsive Styles
+    
+-------------------------------------------------------------------*/
+
+@import 'mixins';
+
+/*-----------------  Desktops  -----------------*/
+@media screen and (max-width:635px){  }
+@media (min-width: 635px) and (max-width:770px){  }
+@media (min-device-width: 519px) and (max-devide-width:770px){  }
+/* End Desktops */
+
+/*-----------------  Smartphones  -----------------*/
+@media (max-device-width: 519px) {  }
+/* End Smartphones */
+
+
+
+
+
+

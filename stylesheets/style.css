@@ -1,0 +1,134 @@
+/*------------------------------------------------------------------
+
+STYLESHEET CONTENTS
+
+    -- GLOBAL STYLES
+    -- MISC CLASSES
+    -- ACTIVE PAGE
+    -- CONTAINERS
+    -- NAVIGATION
+    -- ELEMENTS
+    -- FOOTER
+    
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+
+    Global Styles
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+
+    Mixins
+
+-------------------------------------------------------------------*/
+/* End Mixins */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  overflow: scroll; }
+
+ul {
+  list-style: none; }
+
+/* End Global Styles */
+/*------------------------------------------------------------------
+
+    Misc Classes
+
+-------------------------------------------------------------------*/
+.clear {
+  clear: both; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.bold {
+  font-weight: bold; }
+
+.italic {
+  font-style: italic; }
+
+.underline {
+  text-decoration: underline; }
+
+.center_text {
+  text-align: center; }
+
+.all_caps {
+  text-transform: uppercase; }
+
+.lower_case {
+  text-transform: lowercase; }
+
+/* End Misc Classes */
+/*------------------------------------------------------------------
+
+    Active Page
+
+-------------------------------------------------------------------*/
+/*
+  body#ID_NAME_HERE .Navigation_Name li.List_Item_Class_Here{ Style for active Nav button }
+*/
+/* End Active Page */
+/*------------------------------------------------------------------
+
+    Containers
+
+-------------------------------------------------------------------*/
+.one_fourth {
+  width: 25%; }
+
+.one_third {
+  width: 33.3%; }
+
+.half {
+  width: 50%; }
+
+.two_thirds {
+  width: 66.66%; }
+
+.full {
+  width: 100%;
+  float: left; }
+
+.content {
+  width: 100%;
+  float: left;
+  padding: 20px; }
+
+.center {
+  margin: 0 auto; }
+
+.wrap {
+  width: 980px;
+  margin: 0 auto; }
+
+/* End Containers */
+/*------------------------------------------------------------------
+
+    Navigation
+
+-------------------------------------------------------------------*/
+/* End Navigation */
+/*------------------------------------------------------------------
+
+    Elements
+
+-------------------------------------------------------------------*/
+/* End Elements */
+/*------------------------------------------------------------------
+
+    Footer
+
+-------------------------------------------------------------------*/
+/* End Footer */
+
+/*# sourceMappingURL=style.css.map */
