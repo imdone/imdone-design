@@ -199,6 +199,10 @@ ul {
   margin: 30px 0;
   border-radius: 35px;
   background: #6f8fd4; }
+  .blue-icon .icon {
+    width: 30px;
+    margin: 20px 0 0 20px;
+    fill: #fff; }
 
 .grey-icon {
   height: 70px;
@@ -207,11 +211,27 @@ ul {
   border-radius: 35px;
   background: #9a9a9a; }
 
+.dark-grey-icon {
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  background: #464646; }
+  .dark-grey-icon .icon {
+    width: 30px;
+    margin: 20px 0 0 20px;
+    fill: #fff; }
+
 .connect-container {
   padding: 15px 0;
   background: #f3f3f3;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd; }
+  .connect-container .connect-icons .connect-table {
+    display: table;
+    margin: 0 auto; }
+    .connect-container .connect-icons .connect-table .connect-icons li {
+      display: inline-block;
+      margin: 0 3px; }
 
 /* END: Elements */
 

@@ -197,6 +197,12 @@ h1,h2,h3,h4,h5{  }
   margin: 30px 0;
   border-radius: 35px;
   background: $blue;
+
+  .icon{
+    width:30px;
+    margin: 20px 0 0 20px;
+    fill: #fff;
+  }
 }
 
 .grey-icon{
@@ -206,12 +212,41 @@ h1,h2,h3,h4,h5{  }
   border-radius: 35px;
   background: $light-grey;
 }
+.dark-grey-icon{
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  background: $dark-grey;
+
+  .icon{
+    width:30px;
+    margin: 20px 0 0 20px;
+    fill: #fff;
+  }
+}
 
 .connect-container{
   padding: 15px 0;
   background: #f3f3f3;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
+
+  .connect-icons{
+
+    .connect-table{
+
+      display: table;
+      margin: 0 auto;
+
+      .connect-icons{
+
+        li{
+          display: inline-block;
+          margin:0 3px;
+        }
+      }
+    }
+  }
 }
 
 /* END: Elements */

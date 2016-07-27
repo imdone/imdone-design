@@ -6,7 +6,7 @@
     <div class="container">
         <div class="col-sm-12">
             <div class="row banner-text">
-                <p><img src="images/imdone-logo.svg"/><strong>imdone</strong> is a task-board that lives in your <strong>code_</strong></p>
+                <p><img src="images/logos/imdone-logo.svg"/><strong>imdone</strong> is a task-board that lives in your <strong>code_</strong></p>
             </div>
             <div class="row call-to-action-container">
                 <h4>imdone is built for developers and teams of all sizes</h4>
@@ -24,6 +24,7 @@
     <div class="col-sm-12">
         <div class="col-sm-3">
             <div class="blue-icon center-block">
+                <img class="icon" src="images/icons/icon-add-tasks.svg"/>
             </div>
             <h4 class="text-dark-grey text-center">Add tasks to your work.</h4>
             <p class="text-center text-light-grey">
@@ -32,6 +33,7 @@
         </div>
         <div class="col-sm-3">
             <div class="blue-icon center-block">
+                <img class="icon" src="images/icons/icon-save.svg"/>
             </div>
             <h4 class="text-dark-grey text-center">Save your work.</h4>
             <p class="text-center text-light-grey">
@@ -40,6 +42,7 @@
         </div>
         <div class="col-sm-3">
             <div class="blue-icon center-block">
+                <img class="icon" src="images/icons/icon-organize.svg"/>
             </div>
             <h4 class="text-dark-grey text-center">Organize your tasks</h4>
             <p class="text-center text-light-grey">
@@ -48,6 +51,7 @@
         </div>
         <div class="col-sm-3">
             <div class="blue-icon center-block">
+                <img class="icon" src="images/icons/icon-share.svg"/>
             </div>
             <h4 class="text-dark-grey text-center">Share your tasks.</h4>
             <p class="text-center text-light-grey">
@@ -62,6 +66,34 @@
     <div class="container">
         <div class="col-sm-12">
             <h4 class="text-dark-grey text-center"><strong>imdone</strong> connects with all your favorite apps, with more on the way!</h5>
+        </div>
+        <div class="col-sm-12">
+            <div class="connect-icons">
+                <div class="connect-table">
+                    <ul class="connect-icons">
+                        <li>
+                            <div class="dark-grey-icon">
+                                <img class="icon" src="images/icons/icon-google.svg"/>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dark-grey-icon">
+                                <img class="icon" src="images/icons/icon-git.svg"/>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dark-grey-icon">
+                                <img class="icon" src="images/icons/icon-slack.svg"/>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dark-grey-icon">
+                                <img class="icon" src="images/icons/icon-trello.svg"/>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div><!-- /.container -->
 </div><!-- END: Connect With -->
