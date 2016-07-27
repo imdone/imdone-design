@@ -4,7 +4,6 @@
 
 -------------------------------------------------------------------*/
 
-@mixin center{ margin:0 auto; }
 @mixin full { width:100%; float:left; }
 @mixin transition{
     -webkit-transition: all 0.2s ease;

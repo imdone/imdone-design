@@ -10,7 +10,10 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">imdone.io</a>
+              <a class="navbar-brand" href="#">
+                  <img src="images/imdone-logo.svg"/>
+                  <p>imdone.io</p>
+              </a>
             </div>
             <!-- END: Mobile Nav -->
 

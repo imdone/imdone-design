@@ -36,7 +36,8 @@
   box-sizing: border-box; }
 
 html {
-  overflow: scroll; }
+  overflow: scroll;
+  background: #fff; }
 
 body {
   font-family: 'Roboto', sans-serif !important; }
@@ -44,6 +45,10 @@ body {
 /* !important overrides Bootstrap */
 ul {
   list-style: none; }
+
+::selection {
+  color: #fff;
+  background: #464646; }
 
 .text-blue {
   color: #6f8fd4; }
@@ -82,8 +87,11 @@ ul {
 .navbar {
   margin-bottom: 0 !important; }
 
+.navbar-collapse,
+.navbar-default {
+  background: #fff !important; }
+
 .navbar-collapse {
-  background: #fff !important;
   font-family: 'Roboto', sans-serif !important;
   text-transform: uppercase;
   color: #464646;
@@ -124,6 +132,16 @@ ul {
 /*------------------------------------------------------------------
     Navigation
 -------------------------------------------------------------------*/
+.navbar-brand p, .navbar-brand img {
+  float: left; }
+.navbar-brand img {
+  height: 30px;
+  margin: -5px 10px 0 0; }
+.navbar-brand p {
+  color: #464646;
+  font-size: 25px;
+  font-weight: 500; }
+
 /* End Navigation */
 /*------------------------------------------------------------------
     Footer
@@ -141,16 +159,59 @@ ul {
 /*------------------------------------------------------------------
     Elements
 -------------------------------------------------------------------*/
+.button-green {
+  background: #3fad46;
+  padding: 15px 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-weight: 900;
+  font-size: 20px; }
+  .button-green:hover, .button-green:focus {
+    background: #47c84f;
+    text-decoration: none;
+    color: #fff; }
+
 .banner-large {
-  width: 100%;
-  padding: 80px 0;
+  padding: 55px 0;
   background: url(../images/banner-large.png) 50% 0%; }
   .banner-large p {
     font-family: 'Roboto', sans-serif;
     color: #fff;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center; }
+  .banner-large .banner-text img {
+    width: 1.5em;
+    margin-right: 10px; }
+
+.call-to-action-container h4 {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #f3b625; }
+.call-to-action-container .button-green {
+  width: 100%;
+  float: left;
+  text-align: center; }
+
+.blue-icon {
+  height: 70px;
+  width: 70px;
+  margin: 30px 0;
+  border-radius: 35px;
+  background: #6f8fd4; }
+
+.grey-icon {
+  height: 70px;
+  width: 70px;
+  margin: 30px 0;
+  border-radius: 35px;
+  background: #9a9a9a; }
+
+.connect-container {
+  padding: 15px 0;
+  background: #f3f3f3;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd; }
 
 /* END: Elements */
 
