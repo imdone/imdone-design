@@ -94,7 +94,13 @@ h1,h2,h3,h4,h5{  }
 .all_caps{    text-transform:uppercase; }
 .lower_case{  text-transform:lowercase; }
 
-/* End Misc Classes */
+.icon{
+  width:30px;
+  margin: 20px 0 0 20px;
+  fill: #fff;
+}
+
+/* END: Misc Classes */
 
 
 
@@ -115,7 +121,7 @@ h1,h2,h3,h4,h5{  }
 }
 
 
-/* End Navigation */
+/* EEND: Navigation */
 
 
 /*------------------------------------------------------------------
@@ -134,7 +140,31 @@ h1,h2,h3,h4,h5{  }
   }
 }
 
-/* End Footer */
+/* END: Footer */
+
+
+/*------------------------------------------------------------------
+    Plans and Pricing
+-------------------------------------------------------------------*/
+
+.plans-and-pricing{
+  width: 100%;
+
+  .bordered-table,
+  .bordered-table td{ border: 1px solid #ddd; }
+
+  td{
+    color: $light-grey;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  img{ height: 15px; }
+}
+
+/* END: Plans and Pricing */
 
 
 /*------------------------------------------------------------------
@@ -177,6 +207,26 @@ h1,h2,h3,h4,h5{  }
   }
 }
 
+.banner-small{
+  padding: 35px 0 30px 0;
+  background: url(../images/banner-large.png) 50% 0%;
+
+  p{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .banner-text{
+    img{
+      width: 1.5em;
+      margin-right: 10px;
+    }
+  }
+}
+
 .call-to-action-container{
   h4{
     margin-bottom:30px;
@@ -197,12 +247,6 @@ h1,h2,h3,h4,h5{  }
   margin: 30px 0;
   border-radius: 35px;
   background: $blue;
-
-  .icon{
-    width:30px;
-    margin: 20px 0 0 20px;
-    fill: #fff;
-  }
 }
 
 .grey-icon{
@@ -217,12 +261,6 @@ h1,h2,h3,h4,h5{  }
   width: 70px;
   border-radius: 35px;
   background: $dark-grey;
-
-  .icon{
-    width:30px;
-    margin: 20px 0 0 20px;
-    fill: #fff;
-  }
 }
 
 .connect-container{

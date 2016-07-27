@@ -128,7 +128,12 @@ ul {
 .lower_case {
   text-transform: lowercase; }
 
-/* End Misc Classes */
+.icon {
+  width: 30px;
+  margin: 20px 0 0 20px;
+  fill: #fff; }
+
+/* END: Misc Classes */
 /*------------------------------------------------------------------
     Navigation
 -------------------------------------------------------------------*/
@@ -142,7 +147,7 @@ ul {
   font-size: 25px;
   font-weight: 500; }
 
-/* End Navigation */
+/* EEND: Navigation */
 /*------------------------------------------------------------------
     Footer
 -------------------------------------------------------------------*/
@@ -155,7 +160,25 @@ ul {
     color: #9a9a9a;
     font-size: 13px; }
 
-/* End Footer */
+/* END: Footer */
+/*------------------------------------------------------------------
+    Plans and Pricing
+-------------------------------------------------------------------*/
+.plans-and-pricing {
+  width: 100%; }
+  .plans-and-pricing .bordered-table,
+  .plans-and-pricing .bordered-table td {
+    border: 1px solid #ddd; }
+  .plans-and-pricing td {
+    color: #9a9a9a;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle; }
+  .plans-and-pricing img {
+    height: 15px; }
+
+/* END: Plans and Pricing */
 /*------------------------------------------------------------------
     Elements
 -------------------------------------------------------------------*/
@@ -184,6 +207,19 @@ ul {
     width: 1.5em;
     margin-right: 10px; }
 
+.banner-small {
+  padding: 35px 0 30px 0;
+  background: url(../images/banner-large.png) 50% 0%; }
+  .banner-small p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center; }
+  .banner-small .banner-text img {
+    width: 1.5em;
+    margin-right: 10px; }
+
 .call-to-action-container h4 {
   margin-bottom: 30px;
   text-align: center;
@@ -199,10 +235,6 @@ ul {
   margin: 30px 0;
   border-radius: 35px;
   background: #6f8fd4; }
-  .blue-icon .icon {
-    width: 30px;
-    margin: 20px 0 0 20px;
-    fill: #fff; }
 
 .grey-icon {
   height: 70px;
@@ -216,10 +248,6 @@ ul {
   width: 70px;
   border-radius: 35px;
   background: #464646; }
-  .dark-grey-icon .icon {
-    width: 30px;
-    margin: 20px 0 0 20px;
-    fill: #fff; }
 
 .connect-container {
   padding: 15px 0;

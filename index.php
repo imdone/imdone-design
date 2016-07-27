@@ -98,7 +98,7 @@
     </div><!-- /.container -->
 </div><!-- END: Connect With -->
 
-<!-- BEGIN: Connect With -->
+<!-- BEGIN: Satisfied Customers -->
 <div class="container">
     <div class="col-sm-12">
         <h4 class="text-dark-grey text-center"><br />Hundreds of thousands are already using <strong>imdone</strong>. Here's just a few</h5>
@@ -132,7 +132,7 @@
             <p class="text-center"><a href="">This is only a few. Click here to see even more very happy folks</a></p>
         </div>
     </div>
-</div><!-- END: Connect With -->
+</div><!-- END: Satisfied Customers -->
 <!-- END: Main Content -->
 
 <?php include('inc/footer.php') ?>
