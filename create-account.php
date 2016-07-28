@@ -41,28 +41,28 @@
             <hr>
             <!-- BEGIN: Plan Selection -->
             <h4 class="bold text-dark-grey">Plan Selection</h4>
-            <ul class="list-inline">
-                <li>
+            <ul class="plan-list">
+                <li class="free-header">
                     <div class="radio">
                       <label>
                         <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                        Free
+                            <p>Free</p>
                       </label>
                     </div>
                 </li>
-                <li>
+                <li class="standard-header">
                     <div class="radio">
                       <label>
                         <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                        Standard
+                            <p>Standard</p>
                       </label>
                     </div>
                 </li>
-                <li>
-                    <div class="radio disabled">
+                <li class="max-header">
+                    <div class="radio">
                       <label>
                         <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
-                        Max
+                            <p>Max</p>
                       </label>
                     </div>
                 </li>

@@ -187,6 +187,38 @@ h1,h2,h3,h4,h5{  }
     color: #fff;
   }
 }
+.button-blue{
+  background: $blue;
+  padding:15px 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-weight: 900;
+  font-size: 20px;
+  border: 0;
+
+  &:hover,
+  &:focus{
+    background: #80A4EF;
+    text-decoration: none;
+    color: #fff;
+  }
+}
+.button-gold{
+  background: $gold;
+  padding:15px 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-weight: 900;
+  font-size: 20px;
+  border: 0;
+
+  &:hover,
+  &:focus{
+    background: #FFC545;
+    text-decoration: none;
+    color: #fff;
+  }
+}
 
 .banner-large{
   padding: 55px 0;
@@ -288,4 +320,95 @@ h1,h2,h3,h4,h5{  }
   }
 }
 
+.free-header{
+    width: 100%;
+    float: left;
+    padding: 15px 15px 5px 15px;
+    margin-bottom: -10px;
+    background: $green;
+
+    p{
+        text-align: left;
+        marigin-bottom: 0;
+        color: #fff;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    span{
+        float: right;
+        text-align: right;
+        padding:15px;
+        margin: -15px;
+        background: #68CC71;
+    }
+}
+.standard-header{
+    width: 100%;
+    float: left;
+    padding: 15px 15px 5px 15px;
+    margin-bottom: -10px;
+    background: $blue;
+
+    p{
+        text-align: left;
+        marigin-bottom: 0;
+        color: #fff;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    span{
+        float: right;
+        text-align: right;
+        padding:15px;
+        margin: -15px;
+        background: #80A4EF;
+    }
+}
+.max-header{
+    width: 100%;
+    float: left;
+    padding: 15px 15px 5px 15px;
+    margin-bottom: -10px;
+    background: $gold;
+
+    p{
+        text-align: left;
+        marigin-bottom: 0;
+        color: #fff;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    span{
+        float: right;
+        text-align: right;
+        padding:15px;
+        margin: -15px;
+        background: #FFC545;
+    }
+
+    input[type="radio"]{
+        float: right;
+    }
+}
+
+.plan-list{
+    list-style: inline;
+
+    .radio{
+        margin: 0;
+    }
+
+    li{
+        width: 33% !important;
+        padding:10px 10px 0 10px !important;
+        margin-bottom:10px;
+
+        input[type="radio"]{
+            margin-top:7px;
+        }
+    }
+}
 /* END: Elements */

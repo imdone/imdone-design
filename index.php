@@ -12,7 +12,7 @@
             <div class="row call-to-action-container">
                 <h4>imdone is built for developers and teams of all sizes</h4>
                 <div class="col-sm-4 col-sm-offset-4 col-xs-offset-0">
-                    <a href="#" class="button-green">View Plans & Pricing</a>
+                    <a href="plans-and-pricing.php" class="button-green">View Plans & Pricing</a>
                 </div>
             </div>
         </div><!-- /.col-sm-12 -->

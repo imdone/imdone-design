@@ -24,9 +24,27 @@
         <table class="plans-and-pricing">
             <tr>
                 <td></td>
-                <td>Free</td>
-                <td>Standard</td>
-                <td>Max</td>
+                <td>
+                    <div class="free-header">
+                        <p>Free
+                        <span>$0<sub>/mo</sub></span>
+                        </p>
+                    </div>
+                </td>
+                <td>
+                    <div class="standard-header">
+                        <p>Standard
+                        <span>$10<sub>/mo</sub></span>
+                        </p>
+                    </div>
+                </td>
+                <td>
+                    <div class="max-header">
+                        <p>Max
+                        <span>$30<sub>/mo</sub></span>
+                        </p>
+                    </div>
+                </td>
             </tr>
             <tr class="bordered-table">
                 <td>Organize tasks in your work</td>
@@ -57,6 +75,12 @@
                 <td><img src="images/icons/icon-x.svg"/></td>
                 <td><img src="images/icons/icon-x.svg"/></td>
                 <td><img src="images/icons/icon-checkmark.svg"/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="button" class="button-green center-block">Sign Up Now</button></td>
+                <td><button type="button" class="button-blue center-block">Sign Up Now</button></td>
+                <td><button type="button" class="button-gold center-block">Sign Up Now</button></td>
             </tr>
         </table>
     </div>
