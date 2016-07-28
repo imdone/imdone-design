@@ -14,12 +14,23 @@
 
 <!-- BEGIN: Main Content -->
 <div class="container">
-    <div class="col-sm-12">
+    <div class="col-sm-6 col-sm-offset-3">
         <h3 class="bold text-dark-grey">
             Sign In
         </h3>
-    </div>
-    <div class="col-sm-12">
+        <hr>
+        <form>
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" id="username" placeholder="Example: jim@jimsmith.com">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="">
+            </div>
+            <a href="#" class="small">Forgot your password?</a>
+             <button type="submit" class="button-green center-block">Sign In</button>
+        </form>
     </div>
 </div><!-- /.container -->
 <!-- END: Main Content -->
