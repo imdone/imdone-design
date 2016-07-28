@@ -1,3 +1,4 @@
+<!-- Include Header and Navigation -->
 <?php include('inc/header.php') ?>
 <?php include('inc/navigation.php') ?>
 
@@ -18,10 +19,11 @@
         <h3 class="bold text-dark-grey">
             Checkout
         </h3>
-    </div>
+    </div><!-- /.col-sm-12 -->
     <div class="col-sm-12">
-    </div>
+    </div><!-- /.col-sm-12 -->
 </div><!-- /.container -->
 <!-- END: Main Content -->
 
+<!-- Include Footer -->
 <?php include('inc/footer.php') ?>

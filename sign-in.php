@@ -1,3 +1,4 @@
+<!-- Include Header and Navigation -->
 <?php include('inc/header.php') ?>
 <?php include('inc/navigation.php') ?>
 
@@ -8,7 +9,7 @@
             <div class="row banner-text">
                 <p><img src="images/logos/imdone-logo.svg"/><strong>imdone</strong> is a task-board that lives in your <strong>code_</strong></p>
             </div>
-        </div>
+        </div><!-- /.col-sm-12 -->
     </div><!-- /.container -->
 </div><!-- END: Banner -->
 
@@ -19,6 +20,7 @@
             Sign In
         </h3>
         <hr>
+        <!-- BEGIN: Log In Form -->
         <form>
             <div class="form-group">
                 <label for="username">Username</label>
@@ -30,9 +32,10 @@
             </div>
             <a href="#" class="small">Forgot your password?</a>
              <button type="submit" class="button-green center-block">Sign In</button>
-        </form>
-    </div>
+        </form><!-- END: Log In Form -->
+    </div><!-- /.col-sm-6 -->
 </div><!-- /.container -->
 <!-- END: Main Content -->
 
+<!-- Include Footer -->
 <?php include('inc/footer.php') ?>

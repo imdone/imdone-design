@@ -1,3 +1,4 @@
+<!-- Include Header and Navigation -->
 <?php include('inc/header.php') ?>
 <?php include('inc/navigation.php') ?>
 
@@ -14,7 +15,7 @@
                     <a href="#" class="button-green">View Plans & Pricing</a>
                 </div>
             </div>
-        </div>
+        </div><!-- /.col-sm-12 -->
     </div><!-- /.container -->
 </div><!-- END: Banner -->
 
@@ -30,7 +31,7 @@
             <p class="text-center text-light-grey">
                 For Example,<br /><code>#TODO:Finish API docs</code>
             </p>
-        </div>
+        </div><!-- /.col-sm-3 -->
         <div class="col-sm-3">
             <div class="blue-icon center-block">
                 <img class="icon" src="images/icons/icon-save.svg"/>
@@ -39,7 +40,7 @@
             <p class="text-center text-light-grey">
                 imdone finds your tasks and puts them on your task-board.
             </p>
-        </div>
+        </div><!-- /.col-sm-3 -->
         <div class="col-sm-3">
             <div class="blue-icon center-block">
                 <img class="icon" src="images/icons/icon-organize.svg"/>
@@ -48,7 +49,7 @@
             <p class="text-center text-light-grey">
                 Using imdone's drag and drop task-board
             </p>
-        </div>
+        </div><!-- /.col-sm-3 -->
         <div class="col-sm-3">
             <div class="blue-icon center-block">
                 <img class="icon" src="images/icons/icon-share.svg"/>
@@ -57,8 +58,9 @@
             <p class="text-center text-light-grey">
                 With google calendar, github, slack, trello and more.
             </p>
-        </div>
-    </div><!-- END: Four Points -->
+        </div><!-- /.col-sm-3 -->
+    </div><!-- /.col-sm-12 -->
+    <!-- END: Four Points -->
 </div><!-- /.container -->
 
 <!-- BEGIN: Connect With -->
@@ -92,9 +94,9 @@
                             </div>
                         </li>
                     </ul>
-                </div>
-            </div>
-        </div>
+                </div><!-- /.connect-table -->
+            </div><!-- /.connect-icons -->
+        </div><!-- col-sm-12 -->
     </div><!-- /.container -->
 </div><!-- END: Connect With -->
 
@@ -131,8 +133,9 @@
         <div class="col-sm-12">
             <p class="text-center"><a href="">This is only a few. Click here to see even more very happy folks</a></p>
         </div>
-    </div>
+    </div><!-- col-sm-12 -->
 </div><!-- END: Satisfied Customers -->
 <!-- END: Main Content -->
 
+<!-- Include Footer -->
 <?php include('inc/footer.php') ?>

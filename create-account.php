@@ -24,4 +24,5 @@
 </div><!-- /.container -->
 <!-- END: Main Content -->
 
+<!-- Include Footer -->
 <?php include('inc/footer.php') ?>

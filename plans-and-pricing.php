@@ -1,3 +1,4 @@
+<!-- Include Header and Navigation -->
 <?php include('inc/header.php') ?>
 <?php include('inc/navigation.php') ?>
 
@@ -62,4 +63,5 @@
 </div><!-- /.container -->
 <!-- END: Main Content -->
 
+<!-- Include Footer -->
 <?php include('inc/footer.php') ?>
