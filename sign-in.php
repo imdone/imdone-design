@@ -15,7 +15,7 @@
 
 <!-- BEGIN: Main Content -->
 <div class="container">
-    <div class="col-sm-6 col-sm-offset-3">
+    <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1">
         <h3 class="bold text-dark-grey">
             Sign In
         </h3>
@@ -33,7 +33,7 @@
             <a href="#" class="small">Forgot your password?</a>
              <button type="submit" class="button-green center-block">Sign In</button>
         </form><!-- END: Log In Form -->
-    </div><!-- /.col-sm-6 -->
+    </div><!-- /.col-md-6 -->
 </div><!-- /.container -->
 <!-- END: Main Content -->
 
