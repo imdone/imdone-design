@@ -24,9 +24,11 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Link</a></li>
+                            <li><a href="create-account.php">Create Account</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
+                            <li><a href="sign-in.php">Sign In</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="checkout.php">Checkout</a></li>
                         </ul>
                     </li>
                 </ul>
