@@ -107,28 +107,44 @@
     </div>
     <div class="col-sm-12">
         <div class="col-sm-3 col-xs-6">
-            <div class="grey-icon center-block"></div>
+            <div class="grey-icon center-block">
+                <!--<img class="icon" src="images/icons/icon-google.svg"/>-->
+            </div>
         </div>
         <div class="col-sm-3 col-xs-6">
-            <div class="grey-icon center-block"></div>
+            <div class="grey-icon center-block">
+                <!--<img class="icon" src="images/icons/icon-google.svg"/>-->
+            </div>
         </div>
         <div class="col-sm-3 col-xs-6">
-            <div class="grey-icon center-block"></div>
+            <div class="grey-icon center-block">
+                <!--<img class="icon" src="images/icons/icon-google.svg"/>-->
+            </div>
         </div>
         <div class="col-sm-3 col-xs-6">
-            <div class="grey-icon center-block"></div>
+            <div class="grey-icon center-block">
+                <!--<img class="icon" src="images/icons/icon-google.svg"/>-->
+            </div>
         </div>
         <div class="col-sm-3 col-xs-6">
-            <div class="grey-icon center-block"></div>
+            <div class="grey-icon center-block">
+                <!--<img class="icon" src="images/icons/icon-google.svg"/>-->
+            </div>
         </div>
         <div class="col-sm-3 col-xs-6">
-            <div class="grey-icon center-block"></div>
+            <div class="grey-icon center-block">
+                <!--<img class="icon" src="images/icons/icon-google.svg"/>-->
+            </div>
         </div>
         <div class="col-sm-3 col-xs-6">
-            <div class="grey-icon center-block"></div>
+            <div class="grey-icon center-block">
+                <!--<img class="icon" src="images/icons/icon-google.svg"/>-->
+            </div>
         </div>
         <div class="col-sm-3 col-xs-6">
-            <div class="grey-icon center-block"></div>
+            <div class="grey-icon center-block">
+                <!--<img class="icon" src="images/icons/icon-google.svg"/>-->
+            </div>
         </div>
         <div class="col-sm-12">
             <p class="text-center"><a href="">This is only a few. Click here to see even more very happy folks</a></p>

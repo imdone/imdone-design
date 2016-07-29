@@ -6,8 +6,9 @@
     <meta name="description"
           content="">
 
-    <!-- Main Stylesheet -->
+    <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="stylesheets/style.min.css"/>
+    <link rel="stylesheet" type="text/css" href="stylesheets/responsive_styles.min.css"/>
 
     <!-- jQuery -->
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

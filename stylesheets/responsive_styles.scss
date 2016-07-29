@@ -1,23 +1,189 @@
 /*------------------------------------------------------------------
 
     Responsive Styles
-    
+
 -------------------------------------------------------------------*/
 
 @import 'mixins';
 
 /*-----------------  Desktops  -----------------*/
-@media screen and (max-width:635px){  }
-@media (min-width: 635px) and (max-width:770px){  }
-@media (min-device-width: 519px) and (max-devide-width:770px){  }
+@media screen and (max-width:635px){
+
+    /* Lots of !important's to override Bootstrap styles */
+
+    /* BEGIN: Navigation */
+    .navbar{
+        .col-sm-12{
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+    }
+    .navbar-brand{
+        margin-left: -20px !important;
+    }
+
+    .navbar-toggle{
+        border-radius: 0 !important;
+        border: 0 !important;
+        margin-right: -10px !important;
+    }
+
+    .icon-bar{
+        background-color: $dark-grey !important;
+    }
+
+    /* END: Navigation */
+
+    .connect-icons li{ margin: 0 !important; }
+
+    .plan-list li{ width: 100% !important; }
+
+    .banner-large{
+        padding: 45px 0;
+        p{
+            font-size: 30px;
+        }
+    }
+
+    .button-green,
+    .button-blue,
+    .button-gold{
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .plans-and-pricing{
+
+        .free-header,
+        .standard-header,
+        .max-header{
+            margin-bottom: -4px;
+        }
+
+        .free-header p,
+        .standard-header p,
+        .max-header p{
+            font-size: 16px;
+            float: left;
+            text-align: center;
+        }
+
+        .free-header span,
+        .standard-header span,
+        .max-header span{
+            float: left;
+            background: none;
+            text-align: center;
+        }
+
+        td{
+            padding:3px;
+            font-size:12px;
+        }
+    }
+}
+@media (min-width: 635px) and (max-width:770px){
+    .plans-and-pricing{
+
+        .free-header p,
+        .standard-header p,
+        .max-header p{
+            width:100%;
+            font-size: 16px;
+            float: left;
+            text-align: center;
+        }
+
+        .free-header span,
+        .standard-header span,
+        .max-header span{
+            float: left;
+            width:100%;
+            background: none;
+            text-align: center;
+        }
+
+        td{
+            padding:3px;
+            font-size:12px;
+        }
+    }
+}
 /* End Desktops */
 
 /*-----------------  Smartphones  -----------------*/
-@media (max-device-width: 519px) {  }
+@media (max-device-width: 635px) { 
+    /* Lots of !important's to override Bootstrap styles */
+
+    /* BEGIN: Navigation */
+    .navbar{
+        .col-sm-12{
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+    }
+    .navbar-brand{
+        margin-left: -20px !important;
+    }
+
+    .navbar-toggle{
+        border-radius: 0 !important;
+        border: 0 !important;
+        margin-right: -10px !important;
+    }
+
+    .icon-bar{
+        background-color: $dark-grey !important;
+    }
+
+    /* END: Navigation */
+
+    .connect-icons li{ margin: 0 !important; }
+
+    .plan-list li{ width: 100% !important; }
+
+    .banner-large{
+        padding: 45px 0;
+        p{
+            font-size: 30px;
+        }
+    }
+
+    .button-green,
+    .button-blue,
+    .button-gold{
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .plans-and-pricing{
+
+        .free-header,
+        .standard-header,
+        .max-header{
+            margin-bottom: -4px;
+        }
+
+        .free-header p,
+        .standard-header p,
+        .max-header p{
+            font-size: 16px;
+            float: left;
+            text-align: center;
+        }
+
+        .free-header span,
+        .standard-header span,
+        .max-header span{
+            float: left;
+            background: none;
+            text-align: center;
+        }
+
+        td{
+            padding:3px;
+            font-size:12px;
+        }
+    }
+}
 /* End Smartphones */
-
-
-
-
-
-

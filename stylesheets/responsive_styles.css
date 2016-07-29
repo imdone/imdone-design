@@ -1,7 +1,7 @@
 /*------------------------------------------------------------------
 
     Responsive Styles
-    
+
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 
@@ -11,8 +11,136 @@
 /* Colors */
 /* End Mixins */
 /*-----------------  Desktops  -----------------*/
+@media screen and (max-width: 635px) {
+  /* Lots of !important's to override Bootstrap styles */
+  /* BEGIN: Navigation */
+  .navbar .col-sm-12 {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+
+  .navbar-brand {
+    margin-left: -20px !important; }
+
+  .navbar-toggle {
+    border-radius: 0 !important;
+    border: 0 !important;
+    margin-right: -10px !important; }
+
+  .icon-bar {
+    background-color: #464646 !important; }
+
+  /* END: Navigation */
+  .connect-icons li {
+    margin: 0 !important; }
+
+  .plan-list li {
+    width: 100% !important; }
+
+  .banner-large {
+    padding: 45px 0; }
+    .banner-large p {
+      font-size: 30px; }
+
+  .button-green,
+  .button-blue,
+  .button-gold {
+    padding: 10px;
+    font-size: 15px; }
+
+  .plans-and-pricing .free-header,
+  .plans-and-pricing .standard-header,
+  .plans-and-pricing .max-header {
+    margin-bottom: -4px; }
+  .plans-and-pricing .free-header p,
+  .plans-and-pricing .standard-header p,
+  .plans-and-pricing .max-header p {
+    font-size: 16px;
+    float: left;
+    text-align: center; }
+  .plans-and-pricing .free-header span,
+  .plans-and-pricing .standard-header span,
+  .plans-and-pricing .max-header span {
+    float: left;
+    background: none;
+    text-align: center; }
+  .plans-and-pricing td {
+    padding: 3px;
+    font-size: 12px; } }
+@media (min-width: 635px) and (max-width: 770px) {
+  .plans-and-pricing .free-header p,
+  .plans-and-pricing .standard-header p,
+  .plans-and-pricing .max-header p {
+    width: 100%;
+    font-size: 16px;
+    float: left;
+    text-align: center; }
+  .plans-and-pricing .free-header span,
+  .plans-and-pricing .standard-header span,
+  .plans-and-pricing .max-header span {
+    float: left;
+    width: 100%;
+    background: none;
+    text-align: center; }
+  .plans-and-pricing td {
+    padding: 3px;
+    font-size: 12px; } }
 /* End Desktops */
 /*-----------------  Smartphones  -----------------*/
+@media (max-device-width: 635px) {
+  /* Lots of !important's to override Bootstrap styles */
+  /* BEGIN: Navigation */
+  .navbar .col-sm-12 {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+
+  .navbar-brand {
+    margin-left: -20px !important; }
+
+  .navbar-toggle {
+    border-radius: 0 !important;
+    border: 0 !important;
+    margin-right: -10px !important; }
+
+  .icon-bar {
+    background-color: #464646 !important; }
+
+  /* END: Navigation */
+  .connect-icons li {
+    margin: 0 !important; }
+
+  .plan-list li {
+    width: 100% !important; }
+
+  .banner-large {
+    padding: 45px 0; }
+    .banner-large p {
+      font-size: 30px; }
+
+  .button-green,
+  .button-blue,
+  .button-gold {
+    padding: 10px;
+    font-size: 15px; }
+
+  .plans-and-pricing .free-header,
+  .plans-and-pricing .standard-header,
+  .plans-and-pricing .max-header {
+    margin-bottom: -4px; }
+  .plans-and-pricing .free-header p,
+  .plans-and-pricing .standard-header p,
+  .plans-and-pricing .max-header p {
+    font-size: 16px;
+    float: left;
+    text-align: center; }
+  .plans-and-pricing .free-header span,
+  .plans-and-pricing .standard-header span,
+  .plans-and-pricing .max-header span {
+    float: left;
+    background: none;
+    text-align: center; }
+  .plans-and-pricing td {
+    padding: 3px;
+    font-size: 12px; } }
 /* End Smartphones */
 
 /*# sourceMappingURL=responsive_styles.css.map */
